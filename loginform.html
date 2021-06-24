@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <style>
+        body {
+            display: flex;
+            height: 100%;
+            margin: 0px;
+            justify-content: center;
+            
+        }
+        .happy{ 
+        padding: 40px;
+        height: 750px ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5%;
+        width: 300%;
+        max-width: 600px;
+        text-align: center;
+        border-bottom-left-radius: 30px;
+        box-shadow: 1px 2px 23px 2px rgba(253, 253, 253, 0.418);
+        -webkit-box-shadow: 1px 2px 23px 2px rgba(116, 172, 124, 0.53);
+        -moz-box-shadow: 1px 2px 23px 2px rgba(216, 231, 218, 0.53);
+
+    }
+    .hap {
+       background-color: rgba(14, 223, 42, 0.856);
+        color: white;
+        padding: 50px;
+        border-top-right-radius: 10%;
+        border-top-left-radius: 10%;
+        
+
+    }
+    
+    .form{
+        color: rgba(19, 11, 11, 0.719);
+        display: flex;
+        flex-direction: column;
+       
+        
+
+    }
+    .happy input{
+        color: rgb(0, 0, 0);
+        border: transparent;
+        background-color: rgba(236, 226, 226, 0.219);
+        border-radius: 30rem;
+        padding: 20px;
+        margin: 50px;
+        width: 80%;  
+
+    }
+    .happy input[type="submit"] {
+        font-size: 1rem;
+        text-transform: uppercase;
+        background-color:rgba(14, 223, 42, 0.856);
+   
+    }
+   .happy a{
+    display: inline-block;
+    color:rgba(11, 200, 128, 0.856);
+        
+   }
+   .happ {
+       text-align-last: right;
+       
+
+   }
+    </style>
+        <div class="happy">
+            <div class="hap"><h2>Sign In</h2></div>
+            <form class="form">
+                    <input type="text" placeholder="Username" />
+                       <input type="password" placeholder="Password" />
+                     <div class ="happ">
+                       <p>Forgot <a href="#"> username/password?</a></p>
+                    </div>
+                 <input type="submit" value="sign in">
+                <p>Don't have an account?</p>
+                 <a href="#">SIGN UP NOW</a> 
+                </form>
+                
+                  </div>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crlogin</title>
+
+<style>
+    body{
+        display: flex;
+          justify-content: center;
+           }
+        .fun{ 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top:10%;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    form,
+    .fun{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fun img{
+         margin-left: calc((100% - 100px)/2);
+         width: 100px;
+         height: auto;
+         border-radius: 100%;
+         margin-top: 10%;
+    }
+    .fun input{
+        border: none;
+        border-bottom: 2px solid rgba(42, 20, 20, 0.137);
+        padding: 5px;
+        margin: 20px;
+
+    }
+
+    .fun input[type="submit"] {
+        border: none;
+        padding: 10px;
+        border-radius: 5rem;
+        background-color: rgb(22, 156, 85);
+        box-shadow: 1px 2px 23px 2px rgba(18, 90, 18, 0.418);
+        -webkit-box-shadow: 1px 2px 23px 2px rgba(8, 131, 24, 0.53);
+        -moz-box-shadow: 1px 2px 23px 2px rgba(31, 138, 45, 0.53);
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .fun ul{
+        margin-top: 50%;
+        font-size: 70%;
+        text-align: left;
+        color: rgba(5, 4, 4, 0.603);    
+    }
+    .fun a{
+        color: rgba(21, 165, 105, 0.657);
+    }
+
+</style>
+
+</head>
+    <body>
+        <div class="fun">
+            <h2>Welcome</h2>
+                <img src="images/RBS_0676.JPG" alt="">
+             <form action="">
+                 <input type="text" placeholder="Username">
+                 <input type="password" placeholder="Password">
+                 <input type="submit" value="Login">
+            </form>
+            <ul>
+               <li>Forgot <a href="#">username/password?</a> </li>
+               <li>Don't have an account? <a href="#">sign up</a></li>
+            </ul>
+         </div>
+    </body>
+</html>
